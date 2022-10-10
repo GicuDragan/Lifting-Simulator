@@ -1,0 +1,10 @@
+_G.autoMuscle = true
+
+
+
+
+function autoMuscle()
+    while autoMuscle = true do 
+        game:GetService("ReplicatedStorage").RemoteEvent:FireServer({"GainMuscle"})
+        wait(.0001)
+    end
